@@ -388,8 +388,6 @@ module Paperclip
             else
               raise
             end
-          ensure
-            file.rewind
           end
         end
 
